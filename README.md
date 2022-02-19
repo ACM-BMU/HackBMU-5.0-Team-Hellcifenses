@@ -87,7 +87,7 @@ Google translate
 
 #### [Drive](https://drive.google.com/drive/folders/1TechkMwvPl-K1B1fQGFIRvaZVtubjbnM?usp=sharing)
 
-#### [Site](https://bombargain.vercel.app/)
+#### [WebSite](https://bombargain.vercel.app/)
 
 #### [Youtube] (Processing)
 
