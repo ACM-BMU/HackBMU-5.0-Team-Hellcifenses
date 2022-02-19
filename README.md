@@ -84,7 +84,7 @@ Mocky.io
 
 #### [Drive](https://drive.google.com/drive/folders/1TechkMwvPl-K1B1fQGFIRvaZVtubjbnM?usp=sharing)
 
-#### [Site](https://bombargain.netlify.app/)
+#### [Site](https://bombargain.vercel.app/)
 
 #### [Youtube] (Processing)
 
