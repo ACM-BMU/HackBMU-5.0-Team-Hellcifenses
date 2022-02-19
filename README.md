@@ -137,9 +137,3 @@ This flag was used to symbolize this project and this team.
 ##### Pernambuco
 
 ![download (2)](https://user-images.githubusercontent.com/91075027/154786557-b0db72c4-ad6f-4f7a-a6be-304264e03a76.png)
-
-
-###### Recife
-
-![1200px-Bandeira_de_Recife svg](https://user-images.githubusercontent.com/91075027/154786541-9160f314-9ce5-4695-9fb5-ffac67cd1a20.png)
-
