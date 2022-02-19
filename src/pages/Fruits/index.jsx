@@ -11,6 +11,7 @@ import {
   Products,
   Product,
   ProductContent,
+  Span,
 } from "./styles";
 
 import { Loading } from "../../components/Loading/";
@@ -26,12 +27,11 @@ function Bargainspage() {
   };
 
   useEffect(function () {
-    fetch("https://run.mocky.io/v3/3b8ebb3e-af9e-4ece-b976-2f31db3b981d")
+    fetch("https://run.mocky.io/v3/64dec967-f2e6-40f3-afa8-0a150e1a83c1")
       .then(function (response) {
         return response.json();
       })
       .then(function (response) {
-        console.log(response.fruits);
         return setProducts([...response.fruits]);
       });
   }, []);
@@ -54,31 +54,33 @@ function Bargainspage() {
         <Loading />
       ) : (
         <Products>
-          {getProducts.map((item) => (
-            <Product key={item.id}>
-              <img src={item.product_image} alt={item.product_name} />
-              <ProductContent>
-                <strong>
-                  {item.product_name}
+          {getProducts.map((item) => {
+            return (
+              <Product key={item.id}>
+                <img src={item.product_image} alt={item.product_name} />
+                <ProductContent>
+                  <strong>
+                    {item.product_name}
 
-                  <span
-                    color={
-                      item.product_price > item.product_avarage ? true : false
-                    }
-                  >
-                    {moedaInr(item.product_price)}/{item.product_format}
-                  </span>
-                </strong>
-                <strong>
-                  Average cost
-                  <span>
-                    {moedaInr(item.product_avarage)}/{item.product_format}
-                  </span>
-                </strong>
-              </ProductContent>
-              <button type="button">More deals...</button>
-            </Product>
-          ))}
+                    <Span
+                      customcolor={
+                        item.product_price > item.product_average ? true : false
+                      }
+                    >
+                      {moedaInr(item.product_price)}/{item.product_format}
+                    </Span>
+                  </strong>
+                  <strong>
+                    Average cost
+                    <span>
+                      {moedaInr(item.product_average)}/{item.product_format}
+                    </span>
+                  </strong>
+                </ProductContent>
+                <button type="button">More deals...</button>
+              </Product>
+            );
+          })}
         </Products>
       )}
 

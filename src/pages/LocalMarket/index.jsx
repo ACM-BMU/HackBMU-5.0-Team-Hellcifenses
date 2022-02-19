@@ -25,7 +25,6 @@ function LocalMarket() {
         return response.json();
       })
       .then(function (response) {
-        console.log(response.companies);
         setMarkets([...response.companies]);
       });
   }, []);

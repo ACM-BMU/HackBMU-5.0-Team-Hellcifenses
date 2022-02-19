@@ -21,7 +21,7 @@ function Login() {
               <input type="checkbox" id="remember" />
               Remember user
             </label>
-            <a href="#"> Forgot password?</a>
+            <Link to={"/forgot-password"}> Forgot password?</Link>
           </div>
         </Content>
         <BtnEnter type="button">

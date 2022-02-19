@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   margin: 210px auto;
-  width: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -70,6 +70,7 @@ export const BtnRegister = styled.button`
   text-transform: uppercase;
   font-size: 22px;
   border-radius: 5px;
+  border: none;
 
   ion-icon {
     font-size: 22px;

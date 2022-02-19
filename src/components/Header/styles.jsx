@@ -33,7 +33,7 @@ export const Nav = styled.nav`
       list-style: none;
 
       a {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 500;
         color: var(--green-color);
         text-decoration: none;
@@ -113,8 +113,7 @@ export const MenuNavBar = styled.div`
       transition: all 0.5s 0.1s;
 
       a {
-        font-size: 25px;
-        line-height: 45px;
+        font-size: 19px;
         position: absolute;
         color: #000;
       }

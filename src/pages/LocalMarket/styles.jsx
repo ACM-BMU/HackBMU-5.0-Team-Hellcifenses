@@ -14,6 +14,10 @@ export const SearchContainer = styled.div`
     img {
       margin-right: 20px;
     }
+
+    h1 {
+      font-size: 26px;
+    }
   }
 `;
 
@@ -56,7 +60,7 @@ export const Search = styled.label`
 `;
 
 export const Companies = styled.div`
-  width: 80%;
+  width: 90%;
   margin: 100px auto;
 `;
 
@@ -80,6 +84,7 @@ export const CompanyInfos = styled.div`
   align-items: center;
 
   img {
+    width: 200px;
     height: 150px;
   }
 
@@ -112,8 +117,8 @@ export const CompanyProducts = styled.div`
     img {
       border: 1px solid var(--orange-color);
       border-radius: 10px;
-      width: 200px;
-      height: 150px;
+      width: 150px;
+      height: 100px;
     }
   }
 

@@ -14,6 +14,10 @@ export const SearchContainer = styled.div`
     img {
       margin-right: 20px;
     }
+
+    h1 {
+      font-size: 26px;
+    }
   }
 `;
 
@@ -68,14 +72,13 @@ export const Product = styled.div`
   display: flex;
   flex-direction: column;
 
-  width: 350px;
+  width: 300px;
   padding-bottom: 20px;
   background: #f2f2f2;
   border-bottom-left-radius: 6px;
   border-bottom-right-radius: 6px;
 
   img {
-    width: 350px;
     height: 200px;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
@@ -110,11 +113,21 @@ export const ProductContent = styled.div`
     &:nth-child(1) {
       text-transform: uppercase;
     }
+  }
+
+  strong:last-child {
     span {
       font-weight: 500;
       text-transform: lowercase;
       font-size: 18px;
-      color: ${(props) => (props.color === true ? "#00CC39" : "#FF0000")};
+      color: #00cc39;
     }
   }
+`;
+
+export const Span = styled.span`
+  font-weight: 500;
+  text-transform: lowercase;
+  font-size: 18px;
+  color: ${(props) => (props.customcolor === true ? "#FF0000" : "#00CC39")};
 `;

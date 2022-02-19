@@ -12,10 +12,6 @@ export const Founder = styled.div`
   align-items: center;
   padding-bottom: 40px;
 
-  &:not(:last-child) {
-    border-bottom: 1px solid #000;
-  }
-
   & + div {
     margin-top: 100px;
   }
