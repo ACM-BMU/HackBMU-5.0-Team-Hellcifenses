@@ -134,6 +134,6 @@ This flag was used to symbolize this project and this team.
 
 ![download (1)](https://user-images.githubusercontent.com/91075027/154786513-376243f1-0d5f-4b4d-a522-3f0613799498.png)
 
-##### Pernambuco
+##### Pernambuco (State)
 
 ![download (2)](https://user-images.githubusercontent.com/91075027/154786557-b0db72c4-ad6f-4f7a-a6be-304264e03a76.png)
